@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## Welcome to My Project Timeline
 
-You can use the [editor on GitHub](https://github.com/kriskirla/kriskirla.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Current Project: [Chakbot, an AI Friend] (https://github.com/kriskirla/AllProjects)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Chakbot
+This is a program that you can have a chat with (how it began).
 
-### Markdown
+Current features:
+- Can teach Chakbot to respond to any given questions
+- Encrypt/Decrypt Messages
+- Translate Morse Code
+- Calculate
+- Unit Conversion
+- Tell time
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+UI Features:
+- Different Themes
 
-```markdown
-Syntax highlighted code block
+![Chakbot: Machine learning in C#](https://github.com/kriskirla/AllProjects/blob/master/chakbot.PNG)
 
-# Header 1
-## Header 2
-### Header 3
+This is still in progress, so if you want to play with it, head to the debug file inside of Chakbot and run the execution.
 
-- Bulleted
-- List
+Nessessary Files:
+- Chakbot.exe
 
-1. Numbered
-2. List
+Good to haves:
+- brain.txt
+- config.txt
 
-**Bold** and _Italic_ and `Code` text
+If you start Chakbot without brain.txt, then Chakbot will not know how to answer anything (You will have to teach Chakbot from scratch.)
 
-[Link](url) and ![Image](src)
-```
+config.txt is only there to store personal preferences
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Current Progress:
+- Translating Chakbot from C# to Python to enable multi-platform as well as use in conjunction with Raspberry Pi
+- I have started learning circuitry with RPi3 and succesfully output messages to LCD display using python. Currently learning more and familarizing what I can do with RPi and how I can combine it with Chakbot.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kriskirla/kriskirla.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Future Projects:
+- Actual Machine Learning. Currently Chakbot will only learn if you teach it, not really "learning" per se. This feature will be added as soon as I learn more about AI in university.
+- Speech recognition. This makes talking with Chakbot possible instead of inputting with keyboard. 
