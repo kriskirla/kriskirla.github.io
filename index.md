@@ -1,6 +1,6 @@
 ## Welcome to My Project Timeline
 
-Current Project: [Chakbot, an AI Friend] (https://github.com/kriskirla/AllProjects)
+Current Project: [Chakbot, an AI Friend](https://github.com/kriskirla/AllProjects)
 
 ### Chakbot
 This is a program that you can have a chat with (how it began).
