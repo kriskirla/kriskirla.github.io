@@ -1,1 +1,19 @@
+ul {
+    list-style-type: none; // Removes the bullets
+    margin: 0; // Remove browser default settings
+    padding: 0; // Remove browser default settings
+}
 
+li {
+  display: inline; // Remove linebreak to display items in a line
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
