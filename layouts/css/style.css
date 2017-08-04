@@ -132,7 +132,7 @@ section {
 	position:absolute;
 	top:0;
 	left:0;
-	background-image:url(http://unsplash.it/1600/1400?random=1);
+	background-image:url(../img/section1_trees.jpg);
 	width:100%;
 	height:100%;
 	opacity:0.05;
@@ -151,7 +151,7 @@ section {
 	position:absolute;
 	top:0;
 	left:0;
-	background-image:url(http://unsplash.it/1600/1400?random=2);
+	background-image:url(../img/section2_stopwatch.jpg);
 	-webkit-background-size:cover !Important;
 	-moz-background-size:cover !Important;
 	-o-background-size:cover !Important;
