@@ -53,7 +53,7 @@ h1,.h1 {
 	font-size:27px;
 	line-height:55px;
 	font-weight:600;
-		font-family:Raleway;
+	font-family:Raleway;
 }
 a:focus,a:active,button {
 	outline:none;
@@ -66,7 +66,8 @@ header#top-section {
 	padding-top:0px;
 	background:#111;
 	min-height:730px;
-	width:100%;
+	width: 100%;
+	height: 100%;
 	min-width:100%;
 	z-index:0;	
 }
@@ -120,14 +121,33 @@ header#top-section {
 }
 section {
 	padding-bottom:100px;
-	min-height:730px;
 	width:100%;
 	min-width:100%;
 	position:relative;
 	overflow:hidden;
 }
+#Section-0 {
+	background-color:black;
+	min-height: 400px;
+}
+#Section-0:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	background-image:url(../img/slide2_atom.png);
+	width:100%;
+	height:100%;
+	opacity:0.15;
+	 -webkit-background-size:cover !Important;
+	-moz-background-size:cover !Important;
+	-o-background-size:cover !Important;
+	background-size:cover !Important;
+}
 #Section-1 {
 	background-color:#4ba2dc;
+	min-height:730px;
 }
 #Section-1:after {
 	content:"";
@@ -219,23 +239,23 @@ navbar-fixed-top {
 		z-index:1030;
 }
 .navbar .nav>li>a {
-		float:none;
-		padding:0px 20px 0px;
-		color:#444;
-		text-decoration:none;
-		text-shadow:none;
-		font-size:15px;
-				line-height:60px;
-				font-family:'Raleway';
-				font-weight:500;
+	float:none;
+	padding:0px 20px 0px;
+	color:#444;
+	text-decoration:none;
+	text-shadow:none;
+	font-size:15px;
+	line-height:60px;
+	font-family:'Raleway';
+	font-weight:500;
 }
 .navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus {
-		color:#333;
-		text-decoration:none;
-		background-color:#fff;
-		-webkit-box-shadow:none;
-			-moz-box-shadow:none;
-				box-shadow:none;
+	color:#333;
+	text-decoration:none;
+	background-color:#fff;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
 }
 .navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus {
 	background:#4ba2dc;
@@ -453,7 +473,7 @@ input,button,select,textarea {
 	margin-bottom:20px;
 }
 .section-divider {
-		height:10px;
+	height:10px;
 	position:relative;
 	padding-bottom:90px;
 }
