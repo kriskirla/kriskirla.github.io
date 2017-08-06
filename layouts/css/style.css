@@ -1019,8 +1019,7 @@ ul.social-icons li a:hover {
 	border-bottom:1px solid rgba(255,255,255,0.3);
 }
 .grid {
-		list-style:none;
-	text-align:center;
+	list-style:none;
 }
 .grid li {
 	display:inline-block;
@@ -1028,16 +1027,13 @@ ul.social-icons li a:hover {
 	margin:0;
 	padding:20px;
 	text-align:left;
-	position:relative;
 }
 .grid figure {
 	margin:0;
-	position:relative;
 }
 .grid figure img {
 	max-width:100%;
 	display:block;
-	position:relative;
 }
 .grid figcaption {
 	position:absolute;
@@ -1058,7 +1054,7 @@ ul.social-icons li a:hover {
 .grid figcaption a {
 	text-align:center;
 	padding:5px 10px;
-		display:inline-block;
+	display:inline-block;
 	background:#4ba2dc;
 	color:#fff;
 }
