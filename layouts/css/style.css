@@ -1023,9 +1023,9 @@ ul.social-icons li a:hover {
 }
 .grid li {
 	display:inline-block;
+	position: relative;
 	width:33%;
 	margin:0;
-	padding:20px;
 	text-align:left;
 }
 .grid figure {
