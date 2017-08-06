@@ -61,7 +61,7 @@ a:focus,a:active,button {
 }
 /****************** SECTIONS *************************/
 header#top-section {
-	position:relative;
+	position: relative;
 	overflow:hidden;
 	padding-top:0px;
 	background:#111;
@@ -69,6 +69,9 @@ header#top-section {
 	width:100%;
 	min-width:100%;
 	z-index:0;	
+}
+#topheader1 {
+	color: #ea9f27;
 }
 .inner-top-bg {
 	position:absolute;
@@ -800,7 +803,7 @@ input,button,select,textarea {
 	position:relative !important;
 	z-index:0;
 }
-.buttongreen {
+.buttonorange {
 	background:#ea9f27;
 	line-height:40px;
 	padding:8px 20px;
@@ -829,7 +832,7 @@ input,button,select,textarea {
 	text-shadow:none;
 	letter-spacing:1px;
 }
-.buttongreen:hover,.buttoncolor:hover {
+.buttonorange:hover,.buttoncolor:hover {
 	background:#333;
 	color:#fff;
 	text-decoration: none;
